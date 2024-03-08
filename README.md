@@ -13,12 +13,19 @@ Daftar perintah GiT
 …
 
 git branch Tugas-git
+
 git checkout Tugas-git
+
 echo "" > Tugas-git.txt
+
 git add Tugas-git.txt
+
 git commit -m "Menambahkan file Tugas-git.txt"
+
 git checkout main
+
 git merge Tugas-git
+
 git push origin main
 
 git branch Tugas-html
